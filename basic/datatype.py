@@ -28,3 +28,11 @@ print(dict2.values())
 for key in sorted(dict2.keys()):
     print(dict2[key])
 
+file1=open('data.text', 'w')
+file1.write('line1\n')
+file1.write('line2\n')
+file1.close()
+
+file1 = open('data.text')
+data = file1.read()
+print(data.split())
