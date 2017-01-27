@@ -8,6 +8,19 @@ string1='string'
 print(string1[1:])
 print(len(string1[1:]))
 
+string2='It is a hello world' + str(38)
+for x in string2.split():
+    print(x.upper())
+
+string3 = string2.replace("world", "kitty")
+print(string3)
+
+print("%s length is %d" % (string3, len(string3)))
+
+where= string3.find('is')+2
+print(string3[:where] + " not" + string3[where:])
+
+
 list1=[[1,5],[2],['a','b',3, True]]
 print(list1[2][1:])
 print(len(list1[2]))
