@@ -49,3 +49,5 @@ file1.close()
 file1 = open('data.text')
 data = file1.read()
 print(data.split())
+
+# gogogogog
