@@ -50,4 +50,7 @@ file1 = open('data.text')
 data = file1.read()
 print(data.split())
 
-# gogogogog
+
+file2 = open('data.text')
+data2 = file1.read()
+print(data2.split())
