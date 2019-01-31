@@ -1,0 +1,5 @@
+pandas
+Flask-SQLAlchemy
+swagger-parser
+flask
+PyYAML
