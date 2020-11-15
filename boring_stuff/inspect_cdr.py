@@ -93,7 +93,7 @@ def inspect(sample_size=10000, re_sample=False):
 
 if __name__ == "__main__":
 
-    sample_sizes=[200000]
+    sample_sizes=[200000, 500000, 1000000]
     for i, sample_size in enumerate(sample_sizes):
         logger.info("===============================".format(i))
         logger.info("==         SAMPLE {:d}         ==".format(i+1))
